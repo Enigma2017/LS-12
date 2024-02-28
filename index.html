@@ -45,12 +45,14 @@
                     <div class="col-6 col-xl-6 col-lg-12 col-md-12 col-sm-12">
                         <h1 class="fs-1">Floral Creative Hub</h1>
                         <p class="fs-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </p>
                         <button class="btn btn-success mt-5">Read more...</button>
                     </div>
                     <div class="col-6 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-5">
-                        <img class="img-fluid" src="images/flo.jpg">
+                        <img class="img-fluid" src="images/rose-bq.jpg" alt="rose-bq">
                     </div>
                 </div>
             </div>
@@ -66,7 +68,7 @@
                 <div class="row g-5">
                     <div class="col-4">
                         <div class="card">
-                            <a href="#">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Winter Sale -55%!">
                                 <img class="card-img-top" src="images/bg.jpeg" alt="bq" style="width:100%">
                             </a>
                             <div class="card-body">
@@ -78,7 +80,7 @@
                     </div>
                     <div class="col-4">
                         <div class="card">
-                            <a href="#">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Winter Sale -45%!">
                                 <img class="card-img-top" src="images/bg.jpeg" alt="bq" style="width:100%">
                             </a>
                             <div class="card-body">
@@ -90,7 +92,7 @@
                     </div>
                     <div class="col-4">
                         <div class="card">
-                            <a href="#">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Winter Sale -35%!">
                                 <img class="card-img-top" src="images/bg.jpeg" alt="bq" style="width:100%">
                             </a>
                             <div class="card-body">
@@ -102,7 +104,7 @@
                     </div>
                     <div class="col-4">
                         <div class="card">
-                            <a href="#">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Winter Sale -50%!">
                                 <img class="card-img-top" src="images/bg.jpeg" alt="bq" style="width:100%">
                             </a>
                             <div class="card-body">
@@ -114,7 +116,7 @@
                     </div>
                     <div class="col-4">
                         <div class="card">
-                            <a href="#">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Winter Sale -15%!">
                                 <img class="card-img-top" src="images/bg.jpeg" alt="bq" style="width:100%">
                             </a>
                             <div class="card-body">
@@ -126,7 +128,7 @@
                     </div>
                     <div class="col-4">
                         <div class="card">
-                            <a href="#">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Winter Sale -65%!">
                                 <img class="card-img-top" src="images/bg.jpeg" alt="bq" style="width:100%">
                             </a>
                             <div class="card-body">
@@ -175,5 +177,11 @@
             </div>
           </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script>
+        let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
 </body>
 </html>
