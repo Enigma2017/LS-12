@@ -32,6 +32,10 @@ li{
     --bs-navbar-toggler-border-color: rgba(247, 70, 87, 0.1);;
 }
 
+.navbar-nav{
+    margin: 0 35px 0 400px;
+}
+
 h1{
     color: rgb(91, 7, 169);
     padding: 135px 0 36px;
@@ -63,4 +67,11 @@ form{
 
 .form-text{
     margin-top: 70px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .navbar-nav{
+        margin: 0 35px 0 50px;
+    }
 }
