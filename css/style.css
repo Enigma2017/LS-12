@@ -37,13 +37,12 @@ h1{
     padding: 135px 0 36px;
 }
 
-.assortment{
-    padding-bottom: 70px;
+.bottom-inset{
+    margin-bottom: 140px;
 }
 
 h2{
     color: rgb(91, 7, 169);
-    padding: 185px 0 6px;
 }
 
 .card{
@@ -55,5 +54,13 @@ h2{
 }
 
 .carousel{
-    margin-bottom: 170px;
+    margin-bottom: 50px;
+}
+
+form{
+    max-width: 700px;
+}
+
+.form-text{
+    margin-top: 70px;
 }
