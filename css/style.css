@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*:root{
+    --montserrat-font: "Montserrat", sans-serif;
+    --nunito-font: "Nunito", sans-serif;
+    --green: #156963;
+    --grey: #2c1500;
+    --white: #ffffff;
+    --black: #000000;
+    --light-grey: #E0E0E0;
+}*/
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar-dark{
+    --bs-navbar-color: rgb(247, 70, 87);
+    --bs-navbar-hover-color: rgba(247, 70, 87, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: rgb(247, 70, 87);
+    --bs-navbar-brand-color: rgb(247, 70, 87);
+    --bs-navbar-brand-hover-color: rgb(247, 70, 87);
+    --bs-navbar-toggler-border-color: rgba(247, 70, 87, 0.1);;
+}
+
+h1{
+    color: rgb(91, 7, 169);
+    padding: 135px 0 36px;
+}
+
+.assortment{
+    padding-bottom: 70px;
+}
+
+h2{
+    color: rgb(91, 7, 169);
+    padding: 185px 0 6px;
+}
+
+.card{
+    max-width: 400px;
+}
+
+.carousel-item img{
+    max-height: auto;
+}
